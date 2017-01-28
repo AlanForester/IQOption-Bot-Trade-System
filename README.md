@@ -1,7 +1,6 @@
 # YogaMerchant Trade system
-Система позволяющая работать с брокером IQ option, собирать котировки, делать ставки.
-Продукт производит анализ приходящих данный и формирует из них шаблоны по которым
-выявляет более профитные паттерны, после чего делает ставки в систему
+The system allows to work with a broker IQ option, collect quotes, bet. 
+The product analyzes the incoming and forms of these templates on which identifies more profitnye patterns, then bet the system
 
 ##Basic usage:
 
