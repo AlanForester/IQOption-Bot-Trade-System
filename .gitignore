@@ -1,0 +1,10 @@
+sda*.py[cod]
+*.log
+/logs
+*.json
+/build
+/dist
+/*.egg-info
+.idea
+/iqpy.egg-info
+
