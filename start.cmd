@@ -1,0 +1,1 @@
+python setup.py install && python ./src/yogaMerchant/start_collector.py -c config.json

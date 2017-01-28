@@ -1,0 +1,45 @@
+{
+  "active": "EURUSD",
+  "analyzer": {
+    "bid_times": [
+      {"time": 180, "purchase": 0}
+    ],
+    "deep": 6,
+    "min_deep": 6,
+    "interval": 1,
+    "prediction_expire": [
+      {"history_duration": 0, "expire": 0}
+    ],
+    "prediction_delay_on_trend": 0,
+    "prediction_save_if_exists": false
+  },
+  "broker_settings": {
+    "hostname": "iqoption.com",
+    "password": "ClearFreeC0py",
+    "username": "alex@collin.su"
+  },
+  "collector": {
+    "candles_durations": [
+      30
+    ]
+  },
+  "db_settings": {
+    "postgres": {
+      "database": "yogamerchant",
+      "hostname": "localhost",
+      "password": "",
+      "port": "5432",
+      "username": "postgres"
+    },
+    "redis": {
+      "db": "0",
+      "hostname": "localhost",
+      "port": "6379"
+    }
+  },
+  "trader": {
+    "chance": 60,
+    "repeats": 2,
+    "max_bids_for_expiration_time": 1
+  }
+}

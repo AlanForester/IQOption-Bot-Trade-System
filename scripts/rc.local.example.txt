@@ -1,0 +1,1 @@
+/bin/bash /var/www/yogamerchant-daemon/scripts/go-tracker-runner.sh

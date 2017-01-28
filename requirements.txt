@@ -1,0 +1,6 @@
+pylint
+requests
+websocket-client
+psycopg2
+numpy
+redis

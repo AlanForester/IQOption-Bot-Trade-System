@@ -1,0 +1,1 @@
+* *	    1 * *	root    cd /var/www && /usr/bin/git pull > /var/log/yogatrader-gitpull.log 2>&1 &
