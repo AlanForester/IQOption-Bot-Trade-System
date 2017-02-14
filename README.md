@@ -62,6 +62,7 @@ Parameters:
 You can manage the configuration for the application.
 Forecasts are generated when obtaining a new quote (time + time prediction). After the time of the forecast, the result update to pattern model. The pattern is checked whenever a new prediction in the next iteration analysis. If the pattern is suitable for the formation of a new configuration of the signal to be monitored in the field configuration of the trader
 
+```
 bid_times - Time allowed to the bets (for example +1 minute forward)
 deep - Ignition sequence depth
 min_deep - Minimal ignition sequence depth
@@ -73,3 +74,4 @@ candles_durations - Length of candles that will operate the Analyzer
 chance - Minimum chance pattern with regard to Put/Call or Call/Put
 repeats - The minimum number of consecutive trends when making bets
 max_bids_for_expiration_time - The total number of bids allowed per time rates
+```
