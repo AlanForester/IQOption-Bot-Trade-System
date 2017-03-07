@@ -59,6 +59,8 @@ Parameters:
 ```
 
 # Documentation
+The program works in a manner that would find itself working strategy (patterns). Search pattern occur for quite a number of intervals of past data and checks them summing up in the future put and call. These patterns are used on data in real time.
+
 You can manage the configuration for the application.
 Forecasts are generated when obtaining a new quote (time + time prediction). After the time of the forecast, the result update to pattern model. The pattern is checked whenever a new prediction in the next iteration analysis. If the pattern is suitable for the formation of a new configuration of the signal to be monitored in the field configuration of the trader
 
